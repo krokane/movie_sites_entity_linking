@@ -1,0 +1,954 @@
+@prefix myns: <http://dsci558.org/kevinsfakens> .
+@prefix schema1: <http://schema.org> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<tt0024473> a schema1:movie ;
+    myns:audience_rating 7.4e+01 ;
+    myns:imdb_genres "Biography,Drama,History" ;
+    myns:rotten_tomatoes_genres "Classics, Drama" ;
+    myns:rotten_tomatoes_link "m/private_life_of_henry_viii" ;
+    myns:tomatometer_rating 1e+02 ;
+    myns:year 1933 ;
+    schema1:datePublished "1933-09-21" ;
+    schema1:director <d[0]> ;
+    schema1:duration 97 ;
+    schema1:name "The Private Life of Henry VIII" ;
+    schema1:productionCompany <pc[0]> .
+
+<tt0031505> a schema1:movie ;
+    myns:audience_rating 3.6e+01 ;
+    myns:imdb_genres "Adventure,Crime" ;
+    myns:rotten_tomatoes_genres "Action & Adventure, Art House & International, Classics, Mystery & Suspense" ;
+    myns:rotten_tomatoes_link "m/1010889-jamaica_inn" ;
+    myns:tomatometer_rating 5.7e+01 ;
+    myns:year 1939 ;
+    schema1:datePublished "1939-10-13" ;
+    schema1:director <d[1]> ;
+    schema1:duration 98 ;
+    schema1:name "Jamaica Inn" ;
+    schema1:productionCompany <pc[1]> .
+
+<tt0039536> a schema1:movie ;
+    myns:audience_rating 7.6e+01 ;
+    myns:imdb_genres "Crime,Drama,Film-Noir" ;
+    myns:rotten_tomatoes_genres "Classics, Drama, Mystery & Suspense" ;
+    myns:rotten_tomatoes_link "m/1029072-kiss_of_death" ;
+    myns:tomatometer_rating 8.8e+01 ;
+    myns:year 1947 ;
+    schema1:datePublished "1947-08-27" ;
+    schema1:director <d[2]> ;
+    schema1:duration 99 ;
+    schema1:name "Kiss of Death" ;
+    schema1:productionCompany <pc[2]> .
+
+<tt0039757> a schema1:movie ;
+    myns:audience_rating 6.8e+01 ;
+    myns:imdb_genres "Drama,Film-Noir,Mystery" ;
+    myns:rotten_tomatoes_genres "Classics, Drama, Mystery & Suspense" ;
+    myns:rotten_tomatoes_link "m/red_house" ;
+    myns:tomatometer_rating 8.3e+01 ;
+    myns:year 1947 ;
+    schema1:datePublished "1947-01-01" ;
+    schema1:director <d[3]> ;
+    schema1:duration 100 ;
+    schema1:name "The Red House" ;
+    schema1:productionCompany <pc[3]> .
+
+<tt0064137> a schema1:movie ;
+    myns:audience_rating 5e+01 ;
+    myns:imdb_genres "Action,Comedy,Drama" ;
+    myns:rotten_tomatoes_genres "Action & Adventure, Classics, Drama, Science Fiction & Fantasy, Romance" ;
+    myns:rotten_tomatoes_link "m/castle_keep" ;
+    myns:tomatometer_rating 3.8e+01 ;
+    myns:year 1969 ;
+    schema1:datePublished "1969-07-23" ;
+    schema1:director <d[4]> ;
+    schema1:duration 107 ;
+    schema1:name "Castle Keep" ;
+    schema1:productionCompany <pc[4]> .
+
+<tt0069097> a schema1:movie ;
+    myns:audience_rating 8.9e+01 ;
+    myns:imdb_genres "Comedy,Romance" ;
+    myns:rotten_tomatoes_genres "Classics, Comedy, Romance" ;
+    myns:rotten_tomatoes_link "m/play_it_again_sam" ;
+    myns:tomatometer_rating 9.7e+01 ;
+    myns:year 1972 ;
+    schema1:datePublished "1972-05-04" ;
+    schema1:director <d[5]> ;
+    schema1:duration 85 ;
+    schema1:name "Play It Again, Sam" ;
+    schema1:productionCompany <pc[5]> .
+
+<tt0070948> a schema1:movie ;
+    myns:audience_rating 5.4e+01 ;
+    myns:imdb_genres "Adventure,Fantasy,Sci-Fi" ;
+    myns:rotten_tomatoes_genres "Science Fiction & Fantasy" ;
+    myns:rotten_tomatoes_link "m/zardoz" ;
+    myns:tomatometer_rating 4.5e+01 ;
+    myns:year 1974 ;
+    schema1:datePublished "1974-01-01" ;
+    schema1:director <d[6]> ;
+    schema1:duration 105 ;
+    schema1:name "Zardoz" ;
+    schema1:productionCompany <pc[6]> .
+
+<tt0075268> a schema1:movie ;
+    myns:audience_rating 4e+01 ;
+    myns:imdb_genres "Comedy,Drama" ;
+    myns:rotten_tomatoes_genres "Comedy, Drama" ;
+    myns:rotten_tomatoes_link "m/stay_hungry" ;
+    myns:tomatometer_rating 6.7e+01 ;
+    myns:year 1976 ;
+    schema1:datePublished "1976-01-01" ;
+    schema1:director <d[7]> ;
+    schema1:duration 102 ;
+    schema1:name "Stay Hungry" ;
+    schema1:productionCompany <pc[7]> .
+
+<tt0076929> a schema1:movie ;
+    myns:audience_rating 7e+01 ;
+    myns:imdb_genres "Adventure,Animation,Fantasy" ;
+    myns:rotten_tomatoes_genres "Action & Adventure, Animation, Kids & Family, Science Fiction & Fantasy" ;
+    myns:rotten_tomatoes_link "m/wizards" ;
+    myns:tomatometer_rating 5.9e+01 ;
+    myns:year 1977 ;
+    schema1:datePublished "1977-02-09" ;
+    schema1:director <d[8]> ;
+    schema1:duration 80 ;
+    schema1:name "Wizards" ;
+    schema1:productionCompany <pc[8]> .
+
+<tt0079268> a schema1:movie ;
+    myns:audience_rating 4.1e+01 ;
+    myns:imdb_genres "Action,Adventure,Drama" ;
+    myns:rotten_tomatoes_genres "Action & Adventure, Drama, Romance" ;
+    myns:rotten_tomatoes_link "m/hanover_street" ;
+    myns:tomatometer_rating 5.7e+01 ;
+    myns:year 1979 ;
+    schema1:datePublished "1979-01-01" ;
+    schema1:director <d[9]> ;
+    schema1:duration 109 ;
+    schema1:name "Hanover Street" ;
+    schema1:productionCompany <pc[9]> .
+
+<tt0079336> a schema1:movie ;
+    myns:audience_rating 8.3e+01 ;
+    myns:imdb_genres "Action,Adventure,Comedy" ;
+    myns:rotten_tomatoes_genres "Action & Adventure, Comedy, Mystery & Suspense" ;
+    myns:rotten_tomatoes_link "m/the_in_laws_1979" ;
+    myns:tomatometer_rating 8.8e+01 ;
+    myns:year 1979 ;
+    schema1:datePublished "1979-06-01" ;
+    schema1:director <d[10]> ;
+    schema1:duration 103 ;
+    schema1:name "The In-Laws" ;
+    schema1:productionCompany <pc[10]> .
+
+<tt0082474> a schema1:movie ;
+    myns:audience_rating 7.8e+01 ;
+    myns:imdb_genres "Adventure,Comedy,Crime" ;
+    myns:rotten_tomatoes_genres "Comedy, Kids & Family, Musical & Performing Arts" ;
+    myns:rotten_tomatoes_link "m/great_muppet_caper" ;
+    myns:tomatometer_rating 7.6e+01 ;
+    myns:year 1981 ;
+    schema1:datePublished "1981-01-01" ;
+    schema1:director <d[11]> ;
+    schema1:duration 97 ;
+    schema1:name "The Great Muppet Caper" ;
+    schema1:productionCompany <pc[11]> .
+
+<tt0091630> a schema1:movie ;
+    myns:audience_rating 7e+01 ;
+    myns:imdb_genres "Comedy,Horror,Sci-Fi" ;
+    myns:rotten_tomatoes_genres "Comedy, Horror, Science Fiction & Fantasy" ;
+    myns:rotten_tomatoes_link "m/night_of_the_creeps" ;
+    myns:tomatometer_rating 7.5e+01 ;
+    myns:year 1986 ;
+    schema1:datePublished "1986-08-22" ;
+    schema1:director <d[12]> ;
+    schema1:duration 88 ;
+    schema1:name "Night of the Creeps" ;
+    schema1:productionCompany <pc[12]> .
+
+<tt0100150> a schema1:movie ;
+    myns:audience_rating 9e+01 ;
+    myns:imdb_genres "Crime,Drama,Thriller" ;
+    myns:rotten_tomatoes_genres "Drama, Mystery & Suspense" ;
+    myns:rotten_tomatoes_link "m/millers_crossing" ;
+    myns:tomatometer_rating 9.2e+01 ;
+    myns:year 1990 ;
+    schema1:datePublished "1990-09-22" ;
+    schema1:director <d[13]> ;
+    schema1:duration 115 ;
+    schema1:name "Miller's Crossing" ;
+    schema1:productionCompany <pc[13]> .
+
+<tt0105327> a schema1:movie ;
+    myns:audience_rating 6.8e+01 ;
+    myns:imdb_genres "Drama" ;
+    myns:rotten_tomatoes_genres "Drama" ;
+    myns:rotten_tomatoes_link "m/school_ties" ;
+    myns:tomatometer_rating 6e+01 ;
+    myns:year 1992 ;
+    schema1:datePublished "1992-09-18" ;
+    schema1:director <d[14]> ;
+    schema1:duration 106 ;
+    schema1:name "School Ties" ;
+    schema1:productionCompany <pc[14]> .
+
+<tt0108395> a schema1:movie ;
+    myns:audience_rating 4.6e+01 ;
+    myns:imdb_genres "Adventure,Animation,Comedy" ;
+    myns:rotten_tomatoes_genres "Animation, Kids & Family, Musical & Performing Arts, Science Fiction & Fantasy" ;
+    myns:rotten_tomatoes_link "m/a-troll-in-central-park" ;
+    myns:tomatometer_rating 1.4e+01 ;
+    myns:year 1994 ;
+    schema1:datePublished "1994-10-07" ;
+    schema1:director <d[15]> ;
+    schema1:duration 76 ;
+    schema1:name "A Troll in Central Park" ;
+    schema1:productionCompany <pc[15]> .
+
+<tt0110428> a schema1:movie ;
+    myns:audience_rating 8e+01 ;
+    myns:imdb_genres "Biography,Comedy,Drama" ;
+    myns:rotten_tomatoes_genres "Comedy, Drama" ;
+    myns:rotten_tomatoes_link "m/madness_of_king_george" ;
+    myns:tomatometer_rating 9.3e+01 ;
+    myns:year 1994 ;
+    schema1:datePublished "1994-12-28" ;
+    schema1:director <d[16]> ;
+    schema1:duration 110 ;
+    schema1:name "The Madness of King George" ;
+    schema1:productionCompany <pc[16]> .
+
+<tt0120004> a schema1:movie ;
+    myns:audience_rating 3.4e+01 ;
+    myns:imdb_genres "Horror,Mystery,Sci-Fi" ;
+    myns:rotten_tomatoes_genres "Horror, Science Fiction & Fantasy" ;
+    myns:rotten_tomatoes_link "m/relic" ;
+    myns:tomatometer_rating 3.6e+01 ;
+    myns:year 1997 ;
+    schema1:datePublished "1997-01-10" ;
+    schema1:director <d[17]> ;
+    schema1:duration 110 ;
+    schema1:name "The Relic" ;
+    schema1:productionCompany <pc[17]> .
+
+<tt0120913> a schema1:movie ;
+    myns:audience_rating 6e+01 ;
+    myns:imdb_genres "Action,Adventure,Animation" ;
+    myns:rotten_tomatoes_genres "Animation, Kids & Family, Science Fiction & Fantasy" ;
+    myns:rotten_tomatoes_link "m/titan_ae" ;
+    myns:tomatometer_rating 5.1e+01 ;
+    myns:year 2000 ;
+    schema1:datePublished "2000-06-16" ;
+    schema1:director <d[18]> ;
+    schema1:duration 94 ;
+    schema1:name "Titan A.E." ;
+    schema1:productionCompany <pc[18]> .
+
+<tt0159273> a schema1:movie ;
+    myns:audience_rating 6.2e+01 ;
+    myns:imdb_genres "Action,Drama,Thriller" ;
+    myns:rotten_tomatoes_genres "Action & Adventure, Drama" ;
+    myns:rotten_tomatoes_link "m/1111645-behind_enemy_lines" ;
+    myns:tomatometer_rating 3.7e+01 ;
+    myns:year 2001 ;
+    schema1:datePublished "2001-11-30" ;
+    schema1:director <d[19]> ;
+    schema1:duration 106 ;
+    schema1:name "Behind Enemy Lines" ;
+    schema1:productionCompany <pc[19]> .
+
+<tt0164052> a schema1:movie ;
+    myns:audience_rating 2.8e+01 ;
+    myns:imdb_genres "Action,Horror,Sci-Fi" ;
+    myns:rotten_tomatoes_genres "Action & Adventure, Horror, Science Fiction & Fantasy" ;
+    myns:rotten_tomatoes_link "m/hollow_man" ;
+    myns:tomatometer_rating 2.7e+01 ;
+    myns:year 2000 ;
+    schema1:datePublished "2000-08-04" ;
+    schema1:director <d[20]> ;
+    schema1:duration 112 ;
+    schema1:name "Hollow Man" ;
+    schema1:productionCompany <pc[20]> .
+
+<tt0180073> a schema1:movie ;
+    myns:audience_rating 8.3e+01 ;
+    myns:imdb_genres "Biography,Drama" ;
+    myns:rotten_tomatoes_genres "Drama" ;
+    myns:rotten_tomatoes_link "m/quills" ;
+    myns:tomatometer_rating 7.5e+01 ;
+    myns:year 2000 ;
+    schema1:datePublished "2000-11-22" ;
+    schema1:director <d[21]> ;
+    schema1:duration 124 ;
+    schema1:name "Quills" ;
+    schema1:productionCompany <pc[21]> .
+
+<tt0181689> a schema1:movie ;
+    myns:audience_rating 8e+01 ;
+    myns:imdb_genres "Action,Crime,Mystery" ;
+    myns:rotten_tomatoes_genres "Action & Adventure, Mystery & Suspense, Science Fiction & Fantasy" ;
+    myns:rotten_tomatoes_link "m/minority_report" ;
+    myns:tomatometer_rating 9e+01 ;
+    myns:year 2002 ;
+    schema1:datePublished "2002-06-21" ;
+    schema1:director <d[22]> ;
+    schema1:duration 145 ;
+    schema1:name "Minority Report" ;
+    schema1:productionCompany <pc[22]> .
+
+<tt0200669> a schema1:movie ;
+    myns:audience_rating 3.9e+01 ;
+    myns:imdb_genres "Drama,Romance" ;
+    myns:rotten_tomatoes_genres "Art House & International, Drama, Romance" ;
+    myns:rotten_tomatoes_link "m/golden_bowl" ;
+    myns:tomatometer_rating 5.3e+01 ;
+    myns:year 2000 ;
+    schema1:datePublished "2000-05-14" ;
+    schema1:director <d[23]> ;
+    schema1:duration 130 ;
+    schema1:name "The Golden Bowl" ;
+    schema1:productionCompany <pc[23]> .
+
+<tt0223897> a schema1:movie ;
+    myns:audience_rating 7.7e+01 ;
+    myns:imdb_genres "Drama" ;
+    myns:rotten_tomatoes_genres "Drama, Romance" ;
+    myns:rotten_tomatoes_link "m/pay_it_forward" ;
+    myns:tomatometer_rating 3.9e+01 ;
+    myns:year 2000 ;
+    schema1:datePublished "2000-10-20" ;
+    schema1:director <d[24]> ;
+    schema1:duration 123 ;
+    schema1:name "Pay It Forward" ;
+    schema1:productionCompany <pc[24]> .
+
+<tt0246404> a schema1:movie ;
+    myns:audience_rating 5.8e+01 ;
+    myns:imdb_genres "Crime,Drama,Thriller" ;
+    myns:rotten_tomatoes_genres "Drama, Horror" ;
+    myns:rotten_tomatoes_link "m/1135414-24th_day" ;
+    myns:tomatometer_rating 2.7e+01 ;
+    myns:year 2004 ;
+    schema1:datePublished "2004-05-14" ;
+    schema1:director <d[25]> ;
+    schema1:duration 92 ;
+    schema1:name "The 24th Day" ;
+    schema1:productionCompany <pc[25]> .
+
+<tt0283509> a schema1:movie ;
+    myns:audience_rating 9.3e+01 ;
+    myns:imdb_genres "Comedy,Drama,War" ;
+    myns:rotten_tomatoes_genres "Art House & International, Drama" ;
+    myns:rotten_tomatoes_link "m/no_mans_land" ;
+    myns:tomatometer_rating 9.3e+01 ;
+    myns:year 2001 ;
+    schema1:datePublished "2001-12-21" ;
+    schema1:director <d[26]> ;
+    schema1:duration 98 ;
+    schema1:name "No Man's Land" ;
+    schema1:productionCompany <pc[26]> .
+
+<tt0300015> a schema1:movie ;
+    myns:audience_rating 7.6e+01 ;
+    myns:imdb_genres "Drama,Romance" ;
+    myns:rotten_tomatoes_genres "Art House & International, Comedy, Drama, Romance" ;
+    myns:rotten_tomatoes_link "m/i_capture_the_castle" ;
+    myns:tomatometer_rating 7.9e+01 ;
+    myns:year 2003 ;
+    schema1:datePublished "2003-07-11" ;
+    schema1:director <d[27]> ;
+    schema1:duration 113 ;
+    schema1:name "I Capture the Castle" ;
+    schema1:productionCompany <pc[27]> .
+
+<tt0312329> a schema1:movie ;
+    myns:audience_rating 2.9e+01 ;
+    myns:imdb_genres "Biography,Drama,Romance" ;
+    myns:rotten_tomatoes_genres "Drama" ;
+    myns:rotten_tomatoes_link "m/against_the_ropes" ;
+    myns:tomatometer_rating 1.2e+01 ;
+    myns:year 2004 ;
+    schema1:datePublished "2004-02-20" ;
+    schema1:director <d[28]> ;
+    schema1:duration 111 ;
+    schema1:name "Against the Ropes" ;
+    schema1:productionCompany <pc[28]> .
+
+<tt0318649> a schema1:movie ;
+    myns:audience_rating 5.3e+01 ;
+    myns:imdb_genres "Action,Adventure,Comedy" ;
+    myns:rotten_tomatoes_genres "Action & Adventure, Drama" ;
+    myns:rotten_tomatoes_link "m/1144274-sahara" ;
+    myns:tomatometer_rating 3.8e+01 ;
+    myns:year 2005 ;
+    schema1:datePublished "2005-04-08" ;
+    schema1:director <d[29]> ;
+    schema1:duration 124 ;
+    schema1:name "Sahara" ;
+    schema1:productionCompany <pc[29]> .
+
+<tt0343135> a schema1:movie ;
+    myns:audience_rating 4.7e+01 ;
+    myns:imdb_genres "Comedy,Romance" ;
+    myns:rotten_tomatoes_genres "Comedy, Drama, Romance" ;
+    myns:rotten_tomatoes_link "m/along_came_polly" ;
+    myns:tomatometer_rating 2.7e+01 ;
+    myns:year 2004 ;
+    schema1:datePublished "2004-01-16" ;
+    schema1:director <d[30]> ;
+    schema1:duration 90 ;
+    schema1:name "Along Came Polly" ;
+    schema1:productionCompany <pc[30]> .
+
+<tt0348505> a schema1:movie ;
+    myns:audience_rating 4.2e+01 ;
+    myns:imdb_genres "Drama,Romance,Thriller" ;
+    myns:rotten_tomatoes_genres "Documentary, Drama, Special Interest" ;
+    myns:rotten_tomatoes_link "m/asylum2005" ;
+    myns:tomatometer_rating 3.6e+01 ;
+    myns:year 2005 ;
+    schema1:datePublished "2005-08-12" ;
+    schema1:director <d[31]> ;
+    schema1:duration 99 ;
+    schema1:name "Asylum" ;
+    schema1:productionCompany <pc[31]> .
+
+<tt0365686> a schema1:movie ;
+    myns:audience_rating 5.6e+01 ;
+    myns:imdb_genres "Action,Crime,Drama" ;
+    myns:rotten_tomatoes_genres "Action & Adventure, Drama, Mystery & Suspense" ;
+    myns:rotten_tomatoes_link "m/revolver2005" ;
+    myns:tomatometer_rating 1.5e+01 ;
+    myns:year 2005 ;
+    schema1:datePublished "2005-10-22" ;
+    schema1:director <d[32]> ;
+    schema1:duration 111 ;
+    schema1:name "Revolver" ;
+    schema1:productionCompany <pc[32]> .
+
+<tt0385726> a schema1:movie ;
+    myns:audience_rating 8.1e+01 ;
+    myns:imdb_genres "Biography,Drama,Sport" ;
+    myns:rotten_tomatoes_genres "Drama, Sports & Fitness" ;
+    myns:rotten_tomatoes_link "m/1155467-glory_road" ;
+    myns:tomatometer_rating 5.5e+01 ;
+    myns:year 2006 ;
+    schema1:datePublished "2006-01-13" ;
+    schema1:director <d[33]> ;
+    schema1:duration 118 ;
+    schema1:name "Glory Road" ;
+    schema1:productionCompany <pc[33]> .
+
+<tt0406038> a schema1:movie ;
+    myns:audience_rating 6.5e+01 ;
+    myns:imdb_genres "Drama" ;
+    myns:rotten_tomatoes_genres "Art House & International, Drama, Romance" ;
+    myns:rotten_tomatoes_link "m/loggerheads" ;
+    myns:tomatometer_rating 7.3e+01 ;
+    myns:year 2005 ;
+    schema1:datePublished "2005-01-21" ;
+    schema1:director <d[34]> ;
+    schema1:duration 95 ;
+    schema1:name "Loggerheads" ;
+    schema1:productionCompany <pc[34]> .
+
+<tt0436364> a schema1:movie ;
+    myns:audience_rating 3.2e+01 ;
+    myns:imdb_genres "Drama,Romance,War" ;
+    myns:rotten_tomatoes_genres "Drama" ;
+    myns:rotten_tomatoes_link "m/10008786-good" ;
+    myns:tomatometer_rating 3.2e+01 ;
+    myns:year 2008 ;
+    schema1:datePublished "2008-09-08" ;
+    schema1:director <d[35]> ;
+    schema1:duration 92 ;
+    schema1:name "Good" ;
+    schema1:productionCompany <pc[35]> .
+
+<tt0455953> a schema1:movie ;
+    myns:audience_rating 5.9e+01 ;
+    myns:imdb_genres "Documentary" ;
+    myns:rotten_tomatoes_genres "Documentary, Special Interest" ;
+    myns:rotten_tomatoes_link "m/gay_sex_in_the_70s" ;
+    myns:tomatometer_rating 7.1e+01 ;
+    myns:year 2005 ;
+    schema1:datePublished "2005-11-04" ;
+    schema1:director <d[36]> ;
+    schema1:duration 67 ;
+    schema1:name "Gay Sex in the 70s" ;
+    schema1:productionCompany <pc[36]> .
+
+<tt0472181> a schema1:movie ;
+    myns:audience_rating 4.4e+01 ;
+    myns:imdb_genres "Adventure,Animation,Comedy" ;
+    myns:rotten_tomatoes_genres "Action & Adventure, Animation, Comedy, Kids & Family, Science Fiction & Fantasy" ;
+    myns:rotten_tomatoes_link "m/the_smurfs" ;
+    myns:tomatometer_rating 2.1e+01 ;
+    myns:year 2011 ;
+    schema1:datePublished "2011-07-29" ;
+    schema1:director <d[37]> ;
+    schema1:duration 103 ;
+    schema1:name "The Smurfs" ;
+    schema1:productionCompany <pc[37]> .
+
+<tt0482517> a schema1:movie ;
+    myns:audience_rating 5.1e+01 ;
+    myns:imdb_genres "Drama,Romance" ;
+    myns:rotten_tomatoes_genres "Comedy, Drama, Romance" ;
+    myns:rotten_tomatoes_link "m/good_day_to_be_black_and_sexy" ;
+    myns:tomatometer_rating 8e+01 ;
+    myns:year 2008 ;
+    schema1:datePublished "2008-12-05" ;
+    schema1:director <d[38]> ;
+    schema1:duration 92 ;
+    schema1:name "A Good Day to Be Black & Sexy" ;
+    schema1:productionCompany <pc[38]> .
+
+<tt0492466> a schema1:movie ;
+    myns:audience_rating 7.9e+01 ;
+    myns:imdb_genres "Documentary,War" ;
+    myns:rotten_tomatoes_genres "Documentary, Special Interest" ;
+    myns:rotten_tomatoes_link "m/iraq_in_fragments" ;
+    myns:tomatometer_rating 9.1e+01 ;
+    myns:year 2006 ;
+    schema1:datePublished "2006-11-08" ;
+    schema1:director <d[39]> ;
+    schema1:duration 94 ;
+    schema1:name "Iraq in Fragments" ;
+    schema1:productionCompany <pc[39]> .
+
+<tt0800205> a schema1:movie ;
+    myns:audience_rating 6.7e+01 ;
+    myns:imdb_genres "Comedy" ;
+    myns:rotten_tomatoes_genres "Comedy" ;
+    myns:rotten_tomatoes_link "m/skills-like-this" ;
+    myns:tomatometer_rating 5.9e+01 ;
+    myns:year 2007 ;
+    schema1:datePublished "2007-03-10" ;
+    schema1:director <d[40]> ;
+    schema1:duration 88 ;
+    schema1:name "Skills Like This" ;
+    schema1:productionCompany <pc[40]> .
+
+<tt0990376> a schema1:movie ;
+    myns:audience_rating 2.5e+01 ;
+    myns:imdb_genres "Action,Adventure,Family" ;
+    myns:rotten_tomatoes_genres "Kids & Family, Mystery & Suspense" ;
+    myns:rotten_tomatoes_link "m/sarah_landon_and_the_paranormal_hour" ;
+    myns:tomatometer_rating 0e+00 ;
+    myns:year 2007 ;
+    schema1:datePublished "2007-10-19" ;
+    schema1:director <d[41]> ;
+    schema1:duration 81 ;
+    schema1:name "Sarah Landon and the Paranormal Hour" ;
+    schema1:productionCompany <pc[41]> .
+
+<tt1137437> a schema1:movie ;
+    myns:audience_rating 4.5e+01 ;
+    myns:imdb_genres "Drama,Music,Romance" ;
+    myns:rotten_tomatoes_genres "Drama, Gay & Lesbian" ;
+    myns:rotten_tomatoes_link "m/between_love_and_goodbye" ;
+    myns:tomatometer_rating 3.3e+01 ;
+    myns:year 2008 ;
+    schema1:datePublished "2008-12-01" ;
+    schema1:director <d[42]> ;
+    schema1:duration 97 ;
+    schema1:name "Between Love & Goodbye" ;
+    schema1:productionCompany <pc[42]> .
+
+<tt1142800> a schema1:movie ;
+    myns:audience_rating 9.6e+01 ;
+    myns:imdb_genres "Comedy,Crime,Drama" ;
+    myns:rotten_tomatoes_genres "Comedy, Drama" ;
+    myns:rotten_tomatoes_link "m/madea_goes_to_jail" ;
+    myns:tomatometer_rating 2.9e+01 ;
+    myns:year 2009 ;
+    schema1:datePublished "2009-02-20" ;
+    schema1:director <d[43]> ;
+    schema1:duration 103 ;
+    schema1:name "Madea Goes to Jail" ;
+    schema1:productionCompany <pc[43]> .
+
+<tt1161864> a schema1:movie ;
+    myns:audience_rating 4e+01 ;
+    myns:imdb_genres "Drama,Horror,Mystery" ;
+    myns:rotten_tomatoes_genres "Drama, Mystery & Suspense" ;
+    myns:rotten_tomatoes_link "m/the_rite" ;
+    myns:tomatometer_rating 2.1e+01 ;
+    myns:year 2011 ;
+    schema1:datePublished "2011-01-28" ;
+    schema1:director <d[44]> ;
+    schema1:duration 114 ;
+    schema1:name "The Rite" ;
+    schema1:productionCompany <pc[44]> .
+
+<tt1288558> a schema1:movie ;
+    myns:audience_rating 6.3e+01 ;
+    myns:imdb_genres "Horror" ;
+    myns:rotten_tomatoes_genres "Horror, Mystery & Suspense" ;
+    myns:rotten_tomatoes_link "m/the_evil_dead_2013" ;
+    myns:tomatometer_rating 6.2e+01 ;
+    myns:year 2013 ;
+    schema1:datePublished "2013-04-05" ;
+    schema1:director <d[45]> ;
+    schema1:duration 91 ;
+    schema1:name "Evil Dead" ;
+    schema1:productionCompany <pc[45]> .
+
+<tt1291465> a schema1:movie ;
+    myns:audience_rating 6.5e+01 ;
+    myns:imdb_genres "Drama,Thriller" ;
+    myns:rotten_tomatoes_genres "Art House & International, Classics, Drama" ;
+    myns:rotten_tomatoes_link "m/rajneeti" ;
+    myns:tomatometer_rating 1.3e+01 ;
+    myns:year 2010 ;
+    schema1:datePublished "2010-06-04" ;
+    schema1:director <d[46]> ;
+    schema1:duration 163 ;
+    schema1:name "Raajneeti" ;
+    schema1:productionCompany <pc[46]> .
+
+<tt1355630> a schema1:movie ;
+    myns:audience_rating 6.1e+01 ;
+    myns:imdb_genres "Drama,Fantasy,Music" ;
+    myns:rotten_tomatoes_genres "Drama" ;
+    myns:rotten_tomatoes_link "m/if_i_stay" ;
+    myns:tomatometer_rating 3.5e+01 ;
+    myns:year 2014 ;
+    schema1:datePublished "2014-08-22" ;
+    schema1:director <d[47]> ;
+    schema1:duration 107 ;
+    schema1:name "If I Stay" ;
+    schema1:productionCompany <pc[47]> .
+
+<tt1430612> a schema1:movie ;
+    myns:audience_rating 4.7e+01 ;
+    myns:imdb_genres "Action,Crime,Thriller" ;
+    myns:rotten_tomatoes_genres "Action & Adventure, Drama" ;
+    myns:rotten_tomatoes_link "m/brick_mansions" ;
+    myns:tomatometer_rating 2.6e+01 ;
+    myns:year 2014 ;
+    schema1:datePublished "2014-04-25" ;
+    schema1:director <d[48]> ;
+    schema1:duration 90 ;
+    schema1:name "Brick Mansions" ;
+    schema1:productionCompany <pc[48]> .
+
+<tt1578261> a schema1:movie ;
+    myns:audience_rating 3.3e+01 ;
+    myns:imdb_genres "Comedy,Drama,Romance" ;
+    myns:rotten_tomatoes_genres "Art House & International, Comedy, Drama, Romance" ;
+    myns:rotten_tomatoes_link "m/break_ke_baad" ;
+    myns:tomatometer_rating 1.7e+01 ;
+    myns:year 2010 ;
+    schema1:datePublished "2010-11-24" ;
+    schema1:director <d[49]> ;
+    schema1:duration 118 ;
+    schema1:name "Break Ke Baad" ;
+    schema1:productionCompany <pc[49]> .
+
+<d[0]> a schema1:director ;
+    schema1:director "Alexander Korda" .
+
+<d[10]> a schema1:director ;
+    schema1:director "Arthur Hiller" .
+
+<d[11]> a schema1:director ;
+    schema1:director "Jim Henson" .
+
+<d[12]> a schema1:director ;
+    schema1:director "Fred Dekker" .
+
+<d[13]> a schema1:director ;
+    schema1:director "Joel Coen" .
+
+<d[14]> a schema1:director ;
+    schema1:director "Robert Mandel" .
+
+<d[15]> a schema1:director ;
+    schema1:director "Don Bluth, Gary Goldman" .
+
+<d[16]> a schema1:director ;
+    schema1:director "Nicholas Hytner" .
+
+<d[17]> a schema1:director ;
+    schema1:director "Peter Hyams" .
+
+<d[18]> a schema1:director ;
+    schema1:director "Don Bluth, Gary Goldman" .
+
+<d[19]> a schema1:director ;
+    schema1:director "John Moore (V)" .
+
+<d[1]> a schema1:director ;
+    schema1:director "Alfred Hitchcock" .
+
+<d[20]> a schema1:director ;
+    schema1:director "Paul Verhoeven" .
+
+<d[21]> a schema1:director ;
+    schema1:director "Philip Kaufman" .
+
+<d[22]> a schema1:director ;
+    schema1:director "Steven Spielberg" .
+
+<d[23]> a schema1:director ;
+    schema1:director "James Ivory" .
+
+<d[24]> a schema1:director ;
+    schema1:director "Mimi Leder" .
+
+<d[25]> a schema1:director ;
+    schema1:director "Tony Piccirillo" .
+
+<d[26]> a schema1:director ;
+    schema1:director "Danis Tanovic" .
+
+<d[27]> a schema1:director ;
+    schema1:director "Tim Fywell" .
+
+<d[28]> a schema1:director ;
+    schema1:director "Charles S. Dutton" .
+
+<d[29]> a schema1:director ;
+    schema1:director "Breck Eisner" .
+
+<d[2]> a schema1:director ;
+    schema1:director "Henry Hathaway" .
+
+<d[30]> a schema1:director ;
+    schema1:director "John Hamburg" .
+
+<d[31]> a schema1:director ;
+    schema1:director "David Mackenzie" .
+
+<d[32]> a schema1:director ;
+    schema1:director "Guy Ritchie" .
+
+<d[33]> a schema1:director ;
+    schema1:director "James Garner, James Gartner" .
+
+<d[34]> a schema1:director ;
+    schema1:director "Tim Kirkman" .
+
+<d[35]> a schema1:director ;
+    schema1:director "Vicente Amorim" .
+
+<d[36]> a schema1:director ;
+    schema1:director "Joseph Lovett" .
+
+<d[37]> a schema1:director ;
+    schema1:director "Raja Gosnell" .
+
+<d[38]> a schema1:director ;
+    schema1:director "Dennis Dortch" .
+
+<d[39]> a schema1:director ;
+    schema1:director "James Longley" .
+
+<d[3]> a schema1:director ;
+    schema1:director "Delmer Daves" .
+
+<d[40]> a schema1:director ;
+    schema1:director "Monty Miranda" .
+
+<d[41]> a schema1:director ;
+    schema1:director "Lisa Comrie" .
+
+<d[42]> a schema1:director ;
+    schema1:director "Casper Andreas" .
+
+<d[43]> a schema1:director ;
+    schema1:director "Tyler Perry" .
+
+<d[44]> a schema1:director ;
+    schema1:director "Mikael Håfström" .
+
+<d[45]> a schema1:director ;
+    schema1:director "Fede Alvarez" .
+
+<d[46]> a schema1:director ;
+    schema1:director "Prakash Jha" .
+
+<d[47]> a schema1:director ;
+    schema1:director "R.J. Cutler" .
+
+<d[48]> a schema1:director ;
+    schema1:director "NaN"^^xsd:double .
+
+<d[49]> a schema1:director ;
+    schema1:director "Danish Aslam" .
+
+<d[4]> a schema1:director ;
+    schema1:director "Sydney Pollack" .
+
+<d[5]> a schema1:director ;
+    schema1:director "Herbert Ross" .
+
+<d[6]> a schema1:director ;
+    schema1:director "John Boorman" .
+
+<d[7]> a schema1:director ;
+    schema1:director "Bob Rafelson" .
+
+<d[8]> a schema1:director ;
+    schema1:director "Ralph Bakshi" .
+
+<d[9]> a schema1:director ;
+    schema1:director "Peter Hyams" .
+
+<pc[0]> a schema1:productionCompany ;
+    schema1:productionCompany "Criterion Collection" .
+
+<pc[10]> a schema1:productionCompany ;
+    schema1:productionCompany "Warner Bros. Pictures" .
+
+<pc[11]> a schema1:productionCompany ;
+    schema1:productionCompany "Universal Pictures" .
+
+<pc[12]> a schema1:productionCompany ;
+    schema1:productionCompany "TriStar Pictures" .
+
+<pc[13]> a schema1:productionCompany ;
+    schema1:productionCompany "20th Century Fox" .
+
+<pc[14]> a schema1:productionCompany ;
+    schema1:productionCompany "Paramount Home Video" .
+
+<pc[15]> a schema1:productionCompany ;
+    schema1:productionCompany "Warner Home Video" .
+
+<pc[16]> a schema1:productionCompany ;
+    schema1:productionCompany "MGM" .
+
+<pc[17]> a schema1:productionCompany ;
+    schema1:productionCompany "Paramount" .
+
+<pc[18]> a schema1:productionCompany ;
+    schema1:productionCompany "20th Century Fox" .
+
+<pc[19]> a schema1:productionCompany ;
+    schema1:productionCompany "20th Century Fox" .
+
+<pc[1]> a schema1:productionCompany ;
+    schema1:productionCompany "Paramount Pictures" .
+
+<pc[20]> a schema1:productionCompany ;
+    schema1:productionCompany "Columbia Pictures" .
+
+<pc[21]> a schema1:productionCompany ;
+    schema1:productionCompany "20th Century Fox" .
+
+<pc[22]> a schema1:productionCompany ;
+    schema1:productionCompany "Dreamworks" .
+
+<pc[23]> a schema1:productionCompany ;
+    schema1:productionCompany "Lions Gate Films" .
+
+<pc[24]> a schema1:productionCompany ;
+    schema1:productionCompany "Warner Bros. Pictures" .
+
+<pc[25]> a schema1:productionCompany ;
+    schema1:productionCompany "Screen Media" .
+
+<pc[26]> a schema1:productionCompany ;
+    schema1:productionCompany "United Artists Pictures" .
+
+<pc[27]> a schema1:productionCompany ;
+    schema1:productionCompany "Samuel Goldwyn Films" .
+
+<pc[28]> a schema1:productionCompany ;
+    schema1:productionCompany "Paramount Pictures" .
+
+<pc[29]> a schema1:productionCompany ;
+    schema1:productionCompany "Paramount Pictures" .
+
+<pc[2]> a schema1:productionCompany ;
+    schema1:productionCompany "20th Century Fox" .
+
+<pc[30]> a schema1:productionCompany ;
+    schema1:productionCompany "Universal Pictures" .
+
+<pc[31]> a schema1:productionCompany ;
+    schema1:productionCompany "Paramount Classics" .
+
+<pc[32]> a schema1:productionCompany ;
+    schema1:productionCompany "Samuel Goldwyn Films" .
+
+<pc[33]> a schema1:productionCompany ;
+    schema1:productionCompany "Buena Vista" .
+
+<pc[34]> a schema1:productionCompany ;
+    schema1:productionCompany "Strand Releasing" .
+
+<pc[35]> a schema1:productionCompany ;
+    schema1:productionCompany "ThinkFilm" .
+
+<pc[36]> a schema1:productionCompany ;
+    schema1:productionCompany "Lovett Productions" .
+
+<pc[37]> a schema1:productionCompany ;
+    schema1:productionCompany "Sony Pictures Columbia" .
+
+<pc[38]> a schema1:productionCompany ;
+    schema1:productionCompany "Magnolia Pictures" .
+
+<pc[39]> a schema1:productionCompany ;
+    schema1:productionCompany "Typecast" .
+
+<pc[3]> a schema1:productionCompany ;
+    schema1:productionCompany "American Pop Classics" .
+
+<pc[40]> a schema1:productionCompany ;
+    schema1:productionCompany "Shadow Distribution" .
+
+<pc[41]> a schema1:productionCompany ;
+    schema1:productionCompany "Freestyle Releasing" .
+
+<pc[42]> a schema1:productionCompany ;
+    schema1:productionCompany "Embrem Pictures" .
+
+<pc[43]> a schema1:productionCompany ;
+    schema1:productionCompany "Lionsgate" .
+
+<pc[44]> a schema1:productionCompany ;
+    schema1:productionCompany "Warner Bros. Pictures/New Line Cinema" .
+
+<pc[45]> a schema1:productionCompany ;
+    schema1:productionCompany "TriStar Pictures" .
+
+<pc[46]> a schema1:productionCompany ;
+    schema1:productionCompany "UTV Distribution" .
+
+<pc[47]> a schema1:productionCompany ;
+    schema1:productionCompany "Warner Bros. Pictures" .
+
+<pc[48]> a schema1:productionCompany ;
+    schema1:productionCompany "Relativity Media" .
+
+<pc[49]> a schema1:productionCompany ;
+    schema1:productionCompany "Reliance Big Pictures" .
+
+<pc[4]> a schema1:productionCompany ;
+    schema1:productionCompany "Sony Pictures Entertainment" .
+
+<pc[5]> a schema1:productionCompany ;
+    schema1:productionCompany "Paramount Home Video" .
+
+<pc[6]> a schema1:productionCompany ;
+    schema1:productionCompany "Fox" .
+
+<pc[7]> a schema1:productionCompany ;
+    schema1:productionCompany "MGM" .
+
+<pc[8]> a schema1:productionCompany ;
+    schema1:productionCompany "Eureka Entertainment Ltd" .
+
+<pc[9]> a schema1:productionCompany ;
+    schema1:productionCompany "Sony Pictures Entertainment" .
+
